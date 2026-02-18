@@ -6,7 +6,7 @@ public class Product {
     private double price;
     private int stock;
 
-//COnstructor por defecto
+//Constructor por defecto
 public Product(){
     this.id = "";
     this.name = "";
