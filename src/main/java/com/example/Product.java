@@ -6,14 +6,14 @@ public class Product {
     private double price;
     private int stock;
 
-//Constructor por defecto
+
 public Product(){
     this.id = "";
     this.name = "";
     this.price = 0.0;
     this.stock =0;
 }
-//Constructor pri
+
 public Product(String id, String name, double price, int stock){
     this.id = id;
     this.name = name;
@@ -21,7 +21,7 @@ public Product(String id, String name, double price, int stock){
     this.stock =stock;
 }
 
-//get 
+ 
 public String getId(){
     return id;
 }
@@ -38,7 +38,7 @@ public int getStock(){
     return stock;
 }
 
-//Set
+
 
 public void setId(String id){
     this.id = id;
