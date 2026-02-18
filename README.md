@@ -12,7 +12,7 @@ Método toString() para mostrar la información del producto
 
 El propósito del proyecto es practicar conceptos fundamentales de Programación Orientada a Objetos como encapsulamiento y uso de métodos.
 
-## compilación y ejecutación
+## compilación y ejecución
 Para compilar el proyecto, se debe abrir la terminal en la carpeta raíz y ejecutar el comando javac com/example/*.java. Luego, para ejecutar el programa, se utiliza el comando java com.example.Main. Al correr la aplicación, se mostrará en consola la información del producto creado
 
 ## resultado esperado en la consola 
