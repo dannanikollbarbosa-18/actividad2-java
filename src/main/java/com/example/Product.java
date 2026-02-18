@@ -49,19 +49,17 @@ public void setName(String name){
 }
 
 public void setPrice(double price){
-    if (price >= 0){
-    this.price = price;
-    } else{
-        System.out.println("Error, el precio no puede ser negativo");
+    if (price < 0){
+        throw new IllegalArgumentException("El precio no puede ser negativo");
     }
+    this.price = price;
 }
 
 public void setStock(int stock){
-    if(stock >= 0){
-        this.stock = stock;
-    }else{
-        System.out.println("Error, la cantidad no puede ser negativa");
+    if (stock < 0){
+        throw new IllegalArgumentException("El precio no puede ser negativo");
     }
+    this.stock = stock;
 }
 
 public String toString(){
